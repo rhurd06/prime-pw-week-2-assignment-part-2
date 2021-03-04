@@ -123,6 +123,7 @@ let number = 1;
 
 // FIX - number-- decrements number, but the instructions ask to increment.
 // Should be number++.
+
 number--;
 
 if (number >= 2) {
