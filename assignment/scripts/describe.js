@@ -49,7 +49,7 @@ if (name === 'Mary') {
 // We make a variable named 'secret'.
 // We make another variable named 'code' and set it to '123'.
 // We check if 'code' is an exact match to '123'.
-// We also check if 'code' is less than '250'.
+// We also check if 'code' is greater than '250'.
 // Even though the first statement is true the second one is not so there would be no console log for this code.
 
 //CODE
@@ -75,7 +75,7 @@ console.log(secret)
 // We make a variable named 'isStudent' and set it to a value of 'true'.
 // We make another variable named 'age' and set it to a value of '34'.
 // We make a final variable named 'zip' and set it to a value of '55407'.
-// Next we check 'isStudent' to see if it is an exact match to 'true' and that the 'zip' is more than 8000.
+// Next we check 'isStudent' to see if it is an exact match to 'true' and that the 'zip' is greater than 8000.
 // Because only one statement is true we move onto the next step in code.
 // Now we check if 'isStudent' is an exact match to 'false' or if the 'age' is less than '30'.
 // Both of those statements are false so we move on.
@@ -137,7 +137,7 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-// FIX- 'colorOne' should be set to 'blue' as stated in the instructions, and 'colorTwo' should be set to 'red'.
+// FIX- 'colorOne' should be set to 'blue' as stated in the instructions, and 'colorTwo' should be set to 'red'. We also change 'colorTwo' to 'purple' at the end of the script.
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -156,7 +156,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-//FIX the code should read 'if (temp > 39 && time >= 4)'...
+//FIX the code should read 'if (temp > 39 && time >= 4)' then console. log ('throw away the food');
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
