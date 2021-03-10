@@ -48,9 +48,13 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // We make a variable named 'secret'.
 // We make another variable named 'code' and set it to '123'.
-// We check if 'code' is an exact match to '123'.
-// We also check if 'code' is greater than '250'.
-// Even though the first statement is true the second one is not so there would be no console log for this code.
+// We check if 'code' is an exact match to '123';
+  //it is so we 'secret' to "super"
+  //We then also multiply code by 2.
+// Next we check if 'code' is greater than '250';
+  //it is not so we log nothing.
+// Since only the first 'if' statementwas true
+//  we console log the value of 'secret' as "super".
 
 //CODE
 /*
